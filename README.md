@@ -1,13 +1,14 @@
 
 Sample of using
+```javascript
 //params - validation group, entity, validation_rules, object with errors
 hasError = FormValidationService.validate('second', self.advert, self.validation, self.errors);
 if (hasError) {
     return;
 }
-
+````
 Samples of validation_rules object
-
+```javascript
 self.validation = {
       advert_name: {
           notBlank: true,
@@ -86,3 +87,4 @@ self.validation = {
                 validationGroup: ['second', 'third']
             },
 }
+````

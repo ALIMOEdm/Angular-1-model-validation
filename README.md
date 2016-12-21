@@ -88,3 +88,15 @@ self.validation = {
             },
 }
 ````
+Sample of the Error object
+```javascript
+var errors = {
+    video_type: {},
+    heading: {},
+    embed_video: {},
+    popup_time: {},
+
+    age_from: {},
+    age_to: {},
+}
+````
